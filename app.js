@@ -15,7 +15,7 @@ const app = Vue.createApp({
                 return 'Not there yet'
             } else if (this.counter === 37) {
                 return this.counter;
-            } else if (this.counter > 37) {
+            } else {
                 return 'Too much!';
             }
         }
